@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='reusable-auth-app',
     version='1.0.0',
-    packages=['reusable_auth'],
+    packages=['reusable-auth'],
     include_package_data=True,
     license='BSD License',
     description='A simple Django app to add email authorization',
